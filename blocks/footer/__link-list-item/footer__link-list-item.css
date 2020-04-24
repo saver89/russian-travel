@@ -1,3 +1,10 @@
 .footer__link-list-item {
   margin-right: 18px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__link-list-item {
+    margin-bottom: 32px;
+  }
+}
+

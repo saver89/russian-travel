@@ -10,14 +10,20 @@
   position: relative;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover {
     margin: 92px 0 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .cover {
     margin: 88px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin: 32px 0 0;
   }
 }
