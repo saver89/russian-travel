@@ -1,3 +1,4 @@
 .cover__title-container {
   margin: auto;
+  z-index: 5;
 }

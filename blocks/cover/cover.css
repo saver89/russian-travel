@@ -4,11 +4,21 @@
 @import url("./__overlay/cover__overlay.css");
 
 .cover {
-  display: flex;
+  max-width: 100%;
+  padding: 0 48px;
+  position: relative;
+}
+
+.cover__image {
   background-image: url("../../images/cover-trains.jpg");
-  object-fit: cover;
   margin: 0 auto;
-  max-width: 1184px;
-  min-height: 740px;
+  width: 100%;
   background-size: 100% 100%;
+  padding-bottom: 37%;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding: 0;
+  }
 }

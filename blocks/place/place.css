@@ -9,11 +9,17 @@
 .place {
   display: grid;
   padding-bottom: 80px;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: 47% 1fr;
   grid-template-rows: repeat(2, max-content);
   grid-gap: 40px 48px;
 }
 
 .place:last-of-type {
   padding-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    grid-gap: 32px 48px;
+  }
 }
