@@ -2,23 +2,22 @@
 @import url("./__title/cover__title.css");
 @import url("./__subtitle/cover__subtitle.css");
 @import url("./__overlay/cover__overlay.css");
+@import url("./__image/cover__image.css");
 
 .cover {
   max-width: 100%;
-  padding: 0 48px;
+  margin: 92px 48px 0;
   position: relative;
-}
-
-.cover__image {
-  background-image: url("../../images/cover-trains.jpg");
-  margin: 0 auto;
-  width: 100%;
-  background-size: 100% 100%;
-  padding-bottom: 37%;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
-    padding: 0;
+    margin: 92px 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 88px 0 0;
   }
 }
